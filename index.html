@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ncurses.js tests</title>
+	<meta charset="utf-8" />
+	<script src="jquery.min.js" type="text/javascript"></script>
+	<script src="ncurses.js" type="text/javascript"></script>
+
+	<script src="life.js" type="text/javascript"></script>
+
+	<style>
+		@font-face {
+			font-family: 'DejaVuSansBook';
+			src: url('fonts/DejaVuSansMono-webfont.eot'); /* IE9 Compat Modes */
+			src: url('fonts/DejaVuSansMono-webfont.eot?#iefix') format('embedded-opentype'),
+			     url('fonts/DejaVuSansMono-webfont.woff') format('woff'),
+			     url('fonts/DejaVuSansMono-webfont.ttf') format('truetype'),
+			     url('fonts/DejaVuSansMono-webfont.svg#webfontDSbtRiqx') format('svg');
+			font-weight: normal;
+			font-style: normal;
+	    }
+	    html, body { 
+	    	font: 10pt 'DejaVuSansBook';
+	    	background: #333;
+	    	color: whitesmoke;
+	    }
+	    #content {
+	    	position: absolute;
+	    	top: 0.5em; left: 0.5em;
+	    	right: 0.5em; bottom: 0.5em;
+	    	border: 1px dotted red;
+	    	/*overflow: hidden;*/
+	    }
+	</style>
+
+</head>
+<body>
+	<div id="content"></div>
+	<div id="font-size" style="border: 1px solid green; float: left; visibility: hidden;">X</div>
+
+	<script type="text/javascript">
+		main_life();
+	</script>
+
+</body>
+</html>
