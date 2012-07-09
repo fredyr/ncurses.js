@@ -1,0 +1,8 @@
+
+ncurses.js
+
+A simple port of (part of) the ncurses library. 
+
+Game of Life demo ported from C based on the code:
+http://tldp.org/HOWTO/NCURSES-Programming-HOWTO/ncurses_programs/JustForFun/life.c
+
